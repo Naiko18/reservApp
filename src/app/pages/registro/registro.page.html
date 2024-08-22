@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    
+    <ion-title>Registro</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button ></ion-back-button>
+    </ion-buttons>
+  
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  
+  <ion-card>
+
+    <form>
+
+      <ion-input type="text" labelplacement="stacked" label="Rut"></ion-input>
+      <ion-input type="text" labelplacement="stacked" label="Nombre"></ion-input>
+      <ion-input type="date" labelplacement="stacked" label="Fecha Nacimiento"></ion-input>
+      <ion-select label="genero" labelplacement="stacked" >
+        <ion-select-option >Masculino</ion-select-option>
+        <ion-select-option>Femenino</ion-select-option>
+        <ion-select-option>Otros</ion-select-option>
+      </ion-select>
+      <ion-button size="block" color="dark">Registrar</ion-button>
+    </form>
+  </ion-card>
+
+</ion-content>
